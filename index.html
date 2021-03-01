@@ -1,17 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>save</title>
+    <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   <div> <p>hi</p>
-    <a href="https://github.com/veles87/goit_chekhovskiy_hw1/deployments">ок</a>
-</div>
-<ul>
-    <li>eee</li>
-    <li>ee33e</li>
-</ul>
+    <!-- main conteiner-->
+    <div class="main-conteiner">
+        <!--my info-->
+        <div class="my_info">
+            <!-- about me -->
+            <div class="about-me">
+                <h3 class="about_me_profession">Front-End Developer</h3>
+                <h1 class="my_name">Максим Чеховский</h1>
+                <p class="about_me_description">Нравится узнавать новое, делиться знаниями и информацией. Усидчивость,
+                    целеустремленность. Опыт работы в поддержке. Работа с разными приложениями.</p>
+            </div>
+            <!-- my projects -->
+            <div class="my-projects">
+                <h3 class="my-projects_title">Проекты</h3>
+                <ol class="my_projects_list">
+                    <li class="my_projects_item">
+                        <span class="my_projects_text">
+                            <a href="https://hellenglish.goit.education/" class="my_projects_link">
+                                https://hellenglish.goit.education/ </a>
+                            ..........
+                            <span class="my_projects_bracket">[ </span> HTML5, CSS3 <span
+                                class="my_projects_bracket">]</span> </span>
+
+                    </li>
+                    <li class="my_projects_item">
+                        <span class="my_projects_text">
+                            <a href="https://cryptohub.goit.education/"
+                                class="my_projects_link">https://cryptohub.goit.education/</a>
+                            ............
+                            <span class="my_projects_bracket">[</span> JavaScript <span
+                                class="my_projects_bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="my_projects_item">
+                        <span class="my_projects_text">
+                            <a href="https://kidslike.goit.education/"
+                                class="my_projects_link">https://kidslike.goit.education/</a>
+                            ..................
+                            <span class="my_projects_bracket">[</span> React.js, Node.js <span
+                                class="my_projects_bracket">] </span>
+                        </span>
+                    </li>
+                </ol>
+
+
+
+
+
+            </div>
+            <!-- my Work Experience-->
+            <div class="my-work-experience">
+                <h3 class="my-projects_title">
+                    Опыт работы:
+                </h3>
+                <!--comapany 3-->
+                <div class="my_work_experience_block">
+                    <h4 class="my_work_experience_position">Администратор сайта</h4>
+                    <h5 class="time">ноябрь 2016 <span class="-"> -</span> декабрь 2019</h5>
+                    <p> <span class="my-work-company">ФОП Лукайчук Инна</span>
+                    </p>
+                    <ul class="my_work_experience_text">
+                        <li class="my_work_experience_duty">Поддержка и консултация клиентов на интернет - ресурсах по
+                            каналу E-mail и чат на сайте, форма обращений. </li>
+                        <li class="my_work_experience_duty">Предоставление услуг администратора сайта в процедурных
+                            вопросах - проверка финансовых потоков и анализ мошеннических действий. </li>
+                        <li class="my_work_experience_duty">Решение конфликтных ситуаций с посетителями сайта.</li>
+                    </ul>
+                </div>
+                <!--company2-->
+                <div class="my_work_experience_block">
+                    <h4 class="my_work_experience_position">Оператор Call-centre в Виннице</h4>
+                    <h5 class="time">октябрь 2014 <span class="t">-</span> ноябрь 2016</h5>
+                    <p> <span class="my-work-company"> Сartli Group </span> </p>
+                    <ul class="my_work_experience_text">
+                        <li class="my_work_experience_duty">Входящая линия: прием и оформления заказа товаров</li>
+                        <li class="my_work_experience_duty">Осуществление звонков по клиентской базе </li>
+                        <li class="my_work_experience_duty">Продажа товаров и услуг по телефону.</li>
+                        <li class="my_work_experience_duty">Консультация клиентов по телефону и в режиме online chat
+                        </li>
+
+
+
+
+                    </ul>
+                </div>
+                <!--company1-->
+                <div class="my_work_experience_block">
+                    <h4>Таргетолог <span class="my-work-company">Freelance </span> </h4>
+                    <h5 class="time">октябрь 2012 <span class="t">- </span>октябрь 2014</h5>
+                </div>
+                <!--education-->
+                <div class="education">
+                    <h4 class="my-projects_title">Образование</h4>
+                    <h5><span class="my-work-company">Хмельницкий национальный университет</span></h5>
+                    <h6 class="time">2004 <span class="t">-</span> 2008</h6>
+                    <li class="my_work_experience_duty"><small>Факультет компьютерных технологий и комуникаций</small>
+                    </li>
+                </div>
+            </div>
+
+
+        </div>
+        <!--sidebar-->
+        <aside class="sidebar"> <img src="img/778VyGVVJrU.jpg" width="300" height="300" alt="my photo">
+            <!--contacts-->
+            <div class="contacts">
+                <h3 class="sidebar-title">Контакты</h3>
+                <div>
+                    <span class="phone">C:</span>
+                    <a class="phone-link" href="tel:+380682894881">+380682894881</a>
+                </div>
+                <div>
+                    <span class="phone">E:</span>
+                    <a class="phone-link" href="mailto:veles.cafe@gmail.com">veles.cafe@gmail.com</a>
+                </div>
+                <div>
+                    <span class="phone">fb:</span>
+                    <a class="phone-link" href="http://surl.li/kaee">Чеховский М.</a>
+                </div>
+                <div>
+                    <span class="phone">in:</span>
+                    <a class="phone-link" href="http://surl.li/kaek">Chekhovskiy M</a>
+                </div>
+            </div>
+            <!--tech skils-->
+            <div class="tech_skils">
+                <h3 class="sidebar-title">Hard Skils</h3>
+
+                <ul class="tech_skils_list">
+                    <li class="tech_skils_list_item"> <span class="tech_skils_list_item_text"> HTML5</span> </li>
+                    <li class="tech_skils_list_item"> <span class="tech_skils_list_item_text"> CSS3</span> </li>
+                    <li class="tech_skils_list_item"> <span class="tech_skils_list_item_text"> GIT</span> </li>
+                    <li class="tech_skils_list_item"> <span class="tech_skils_list_item_text"> WebPack</span> </li>
+                    <li class="tech_skils_list_item"> <span class="tech_skils_list_item_text"> JavaScript</span> </li>
+                    <li class="tech_skils_list_item"> <span class="tech_skils_list_item_text"> React.js</span> </li>
+                    <li class="tech_skils_list_item"><span class="tech_skils_list_item_text"> Node.js</span> </li>
+
+                </ul>
+                <!--soft skils-->
+                <div>
+                    <h3 class="soft">Soft skils</h3>
+                    <ul class="soft_list_list">
+                        <li class="soft_list_item"> <span class="soft_list_item_text">Adobe Photoshop</span> </li>
+                        <li class="soft_list_item"> <span class="soft_list_item_text">Movavi Video Editor</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">Sony Vegas</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">Exсel</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">Word</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">Canva</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">LiveDune</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">SendinBlue</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">Supa</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">русский</span> </li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">украинский</span></li>
+                        <li class="soft_list_item"><span class="soft_list_item_text">английский</span> </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
 </body>
+
 </html>
